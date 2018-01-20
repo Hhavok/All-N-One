@@ -1,0 +1,236 @@
+body {
+  font-size: 16px;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+div {
+  margin: 0 1rem;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-content: end;
+  z-indez: 1;
+  position: fixed;
+  border: 2px solid black;
+  padding: 1.5rem;
+  width: 100%;
+  height: 10rem;
+  background-image: url("banner-image.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left center;
+}
+
+header h1 {
+  text-shadow: 2px 2px white;
+  color: grey;
+}
+
+.nav-bar a {
+  font-size: 1.5rem;
+  padding: .15rem .5rem;
+  background-color: hsla(50,50%,100%,0.5);
+  border-radius: 10rem;
+}
+
+.nav-bar a:hover {
+  background-color: hsla(50,50%,1%,0.4);
+  border: 2px solid white;
+}
+
+h1 {
+  font-size: 3rem;
+  letter-spacing: 1.3;
+}
+
+h2 {
+  font-size: 2.5rem;
+  letter-spacing: 1.3;
+}
+
+h3 {
+  font-size: 2rem;
+  letter-spacing: 1.3;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+  border: 2px solid black;
+  border-radius: 0;
+  color: blue;
+  background-color: white;
+  padding: .25rem;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: white;
+  background-color: black;
+}
+
+nav ul:nth-child(odd) {
+  margin: .25rem;
+}
+
+li {
+  list-decoration: none;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.margin-top {
+  margin-top: 15rem;
+}
+
+.nav-bar {
+  position: fixed;
+}
+
+.quick-links ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.quick-links li {
+  margin-right: 1rem;
+}
+
+/* Table for Bridges */
+
+table {
+  margin: 1rem 0;
+  width: 100%;
+}
+
+td {
+  height: 250px;
+  min-width: 150px;
+}
+
+.to {
+  min-width: 0;
+}
+
+thead, tbody, tr, th, td {
+  padding: 1.1rem;
+  border: 2px solid black;
+  text-align: center;
+  font-size: 1.6rem;
+}
+
+.tollbridge td, .tollbridge th {
+  min-width: 0;
+  height: 1rem;
+  vertical-align: center;
+}
+
+th {
+  background-color: hsla(50,10%,55%,1);
+  font-weight: 900;
+  font-size: 1.4rem;
+  text-decoration: underline;
+}
+
+tr:nth-child(even), td:first-child {
+  font-weight: bold;
+  background-color: hsla(207, 100%, 68%, 1);
+}
+
+tr:nth-child(2n+1) {
+  background-color: hsla(207, 100%, 83%, 1);
+}
+
+td:first-child {
+  background-color: hsla(207, 100%, 21%, 1);
+  color: white;
+}
+
+strong {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+/* END TABLE */
+
+/* Start Regions -- Northbay */
+
+#northbay, #eastbay, #deltabay, #southbay, #westbay {
+
+}
+
+#nav-bar {
+  margin: 1rem;
+  position: relative;
+}
+
+.northbay td:first-child {
+  background-color: hsla(158, 100%, 11%, 1);
+}
+
+.northbay tr:nth-child(2n+1) {
+  background-color:hsla(150, 100%, 51%, 1);
+}
+
+.northbay tr:nth-child(even) {
+  background-color: hsla(150, 100%, 71%, 1);
+}
+
+/* End Northbay */
+
+/*Start Deltabay */
+
+.deltabay td {
+  color: white;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.deltabay td:first-child {
+  background-color: hsla(275, 100%, 15%, 1);
+}
+
+.deltabay tr:nth-child(2n+1) {
+  background-color: hsla(275, 100%, 35%, 1);
+}
+
+.deltabay tr:nth-child(even) {
+  background-color: hsla(275, 100%, 45%, 1);
+}
+
+/* End Deltabay */
+
+/* Start Eastbay */
+
+.eastbay td, u, strong, th {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+/* End Eastbay */
+
+/* Start Southbay */
+
+/* End Southbay */
+
+/* Start Westbay */
+
+/* End Westbay */
+
+/* Start Pursuit */
+
+.broadcast p, .broadcast pre, .broadcast li {
+  font-size: 1.75rem;
+}
+
+.broadcast mark {
+  background-color: hsla(25, 100%, 55%, 1);/* orange */
+  font-style: italic;
+  font-family: arial;
+}
+
+/* End Pursuit */
